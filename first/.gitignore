@@ -2,7 +2,8 @@
 app.db
 ./tmp
 ./build/*
-.idea
+./.idea
+./.idea/*
 env
 venv
 *.sublime*

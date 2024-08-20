@@ -1,12 +1,9 @@
-from flask_appbuilder import Model
-from sqlalchemy import Column, Integer, String, ForeignKey
-from sqlalchemy.orm import relationship
+from mongoengine import Document
+from mongoengine import DateTimeField, StringField, ReferenceField, ListField
 
 """
 
-You can use the extra Flask-AppBuilder fields and Mixin's
-
-AuditMixin will add automatic timestamp of created and modified by who
-
+Define you MongoEngine Models here
 
 """
+

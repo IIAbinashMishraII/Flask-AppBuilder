@@ -1,5 +1,5 @@
-Base Skeleton to start your application using Flask-AppBuilder
---------------------------------------------------------------
+Base Skeleton to start your application using Flask-AppBuilder and MongoEngine
+------------------------------------------------------------------------------
 
 - Install it::
 
@@ -8,11 +8,8 @@ Base Skeleton to start your application using Flask-AppBuilder
 
 - Run it::
 
-    $ export FLASK_APP=app
-    # Create an admin user
-    $ flask fab create-admin
-    # Run dev server
-    $ flask run
+	fabmanager run
 
 
 That's it!!
+
